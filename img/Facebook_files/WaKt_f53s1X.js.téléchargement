@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["o4E5m"]); }
+
+__d('NotificationListDelightUtils',['RelationshipDelightUtils'],(function a(b,c,d,e,f,g){'use strict';var h=-1,i={canShowHeartDelight:function j(k,l,m){if(l)return false;if(!c('RelationshipDelightUtils').shouldHeartNotification(k)){c('RelationshipDelightUtils').maybeExposeDisagg(k);return false}if(h<0||h>m)h=m;return true},getFirstDelightRow:function j(){return h}};f.exports=i}),null);

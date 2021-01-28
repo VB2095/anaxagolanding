@@ -1,0 +1,412 @@
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: local('font/ProximaNovaRegular.otf');
+}
+
+
+body{
+font-family: 'Raleway', sans-serif !important;
+  font-size: 16px;
+}
+/*  Navbar */
+.navbar{
+  background-color: #041d2a;
+}
+.nav-item a{
+  color: #fff !important;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(215,184,122)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.dropdown-menu{
+  background-color: #041d2a !important;
+}
+.nav-link{
+  color: #fff;
+  margin-left: 1.5rem;
+}
+.nav-link:hover{
+  color: #d7b87a;
+}
+
+.bg{
+  background-color: #041d2a;
+}
+
+.badge{
+  line-height: 2;
+}
+.badge-pill {
+    height: 30px;
+    width: 33px;
+
+}
+.fa{
+  color: #d7b87a;
+  vertical-align: middle;
+  font-size: 25px;
+}
+
+.profile-image  {
+	position: absolute;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+}
+
+/* First panel - homepage*/
+
+.jumbotron{
+  background-image: url(img/laptop.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.background{
+  box-shadow: inset 0 0 0 100px rgba(36, 70, 105, 0.74);
+}
+.jumbotron h1{
+  color: #d7b87a;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.jumbotron h2{
+  color: #eaebeb;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+/* Pagination */
+
+.pagination a {
+  color: #838e94;
+  font-weight: bold;
+  margin-right: 20px;
+  padding: 2px;
+}
+
+.active{
+  color: #041d2a !important;
+  border-bottom: thick solid #d7b87a;
+}
+
+
+/* Second Panel */
+
+.pres{
+  background-color: #f3f3f3;
+  padding: 35px;
+}
+
+.pres h3, p{
+  font-weight: bold;
+}
+
+
+/* Third Panel */
+
+.crowdfunding{
+  background-color: #041d2a;
+  text-align: center;
+  padding: 35px;
+}
+
+.crowdfunding h1{
+  color: #e5e8e9;
+}
+
+.crowdfunding p{
+  color: #d7b87a;
+  font-weight: bold;
+}
+
+
+.crowdfunding i{
+  margin: 20px;
+}
+
+/* Fourth panel */
+
+.invest{
+  text-align: center;
+  padding: 35px;
+}
+.invest h1{
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+}
+.invest p{
+  font-weight: 600;
+}
+
+.invest i{
+  margin: 20px;
+}
+.middle{
+  border-left: thin solid #eeeded;
+  border-right: thin solid #eeeded;
+}
+
+
+/* pannel mobile only */
+.approche{
+  text-align: center;
+  background-color: #f5f5f5;
+  display: none !important;
+  padding: 36px;
+}
+
+.approche h4{
+  color: #002940;
+  font-weight:  bold;
+  padding: 1.5em;
+}
+.approche p{
+  color: #002940;
+  font-weight: 300;
+}
+
+.approche button{
+  background-color:#ae9162;
+  border: none;
+  border-radius: 0;
+
+  width: 10em;
+  height: 2.5em;
+
+}
+
+.approche a{
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+/* fifth pannel */
+.methode{
+  background-color: #f9f9f9;
+  text-align: left;
+  padding:  35px;
+}
+
+.methode h1{
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+/* sixth panel */
+
+.interest{
+  text-align: center;
+  padding: 35px;
+}
+.interest h4{
+  color: #d7b87a;
+  font-weight: bold;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.interest h2{
+  font-weight: bold;
+}
+.interest p{
+  color: #69767d;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 26px;
+}
+.interest h5{
+  font-weight: bold;
+  margin: 18px;
+}
+.byyear{
+  font-size: 16px;
+  position: absolute;
+  margin-left: 6px;
+}
+.box{
+  padding: 15px;
+  border-right: solid thin #f5f5f5;
+
+}
+
+
+.list{
+  text-align: left;
+}
+
+.list li{
+ margin-left: 2em;
+}
+
+.list span{
+  padding-left: 10px;
+}
+/* Panel seven */
+.opportunity{
+  background-color: #f9f9f9;
+  padding: 35px;
+}
+.opportunity h1{
+  margin-bottom: 30px;
+}
+
+
+.preview{
+  padding: 0 !important;
+}
+
+.bg-preview{
+  background-color: #fff;
+}
+.card-img-bottom {
+  color: #fff;
+  height: 20rem;
+  background: url(images/img1.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.boite{
+  border-bottom: thin solid lightgray;
+  padding-bottom: 25px;
+}
+
+.carte{
+  background-color: #fff;
+}
+
+/* Last panel */
+
+.contact{
+  background-color: black;
+  text-align: center;
+  padding: 36px;
+}
+
+.contact h1{
+  color : #e5e5e5;
+  font-weight: bold;
+}
+
+.contact p{
+  color : #e5e5e5;
+  font-weight: bold;
+}
+
+.contact i{
+  color: #fff;
+}
+
+.contact img{
+    padding-top: 45px;
+}
+
+.faq{
+  border: solid thin #d7b87a;
+  background-color:  #d7b87a;
+  border-radius: 0 !important;
+  margin-right: 16px;
+}
+
+.faq a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+.num{
+    border: solid thin #fff !important;
+    border-radius: 0 !important;
+    color: #fff;
+}
+.num a{
+  text-decoration: none;
+  color: #fff;
+}
+.num i{
+  padding-right: 6px;
+}
+
+.investclub{
+  text-align: center;
+}
+.investclub p{
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.investclub h2{
+  padding-bottom: 1em;
+}
+
+
+/* Media Queries */
+
+@media all and (min-width:1200px){
+.mobile{
+  display: none;
+  color: red;
+}
+
+
+}
+@media all and (min-width: 960px) and (max-width: 1199px) {
+  .mobile{
+    display: none;
+  }
+
+
+
+ }
+@media all and (min-width: 768px) and (max-width: 959px) {
+  .desktop{
+    display: none;
+  }
+
+  .methode{
+    text-align: center;
+  }
+
+  .methode p{
+    text-align: left;
+    line-height: 2;
+    }
+
+ }
+@media all and (min-width: 200px) and (max-width: 767px){
+
+  .desktop{
+    display: none;
+  }
+
+.jumbotron-fluid{
+  padding : 55px !important;
+}
+  .jumbotron h1{
+    font-size: 22px;
+
+  }
+  .methode{
+    text-align: center;
+  }
+
+  .methode p{
+    text-align: left;
+    font-weight: 600;
+    line-height: 2;
+
+    }
+
+.box{
+  border-top: thin solid #cccccc;
+  border-bottom: thin solid #cccccc;
+}
+
+.contact h1{
+  font-size: 26px;
+}
+ }
